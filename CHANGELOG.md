@@ -1,21 +1,21 @@
 #2.0.3-beta
-- New coupon type: Free product if selected products are in the cart.
-- New feature: Product Brands / Suppliers management
+- New coupon type: buy one product, get one for free
+- New feature: Brands / Suppliers management features
 - New 'brand' loop and substitution. product, image and document loop have been updated.
 - Images and document processing have been refactored.
 - Added store description field for SEO
-- Added code editor on textarea on email templates page
+- Added code editor on text area on email templates page
 - Fixed issues on position tests
 - Fixed issues on RSS feed links
 - Update SwiftMailer
-- Fix bugs on customer change password form and module "order by title"
+- Fix bugs on customers' changing password form and module "order by title"
 - Add the ability to place a firewall on forms. To use this in a module, extend Thelia\Form\FirewallForm instead of BaseForm
 - Add Exports and Imports management
 - Default front office template:
      - Display enhancement
      - Optimization of the uses of Thelia loops to gain performances and consistency
      - Optimization for SEO : meta description fallback, title on category page, ...
-     - new PSE layout in product page, attributes are separated
+     - New PSE layout in product page, attributes are separated
      - Support of 'check-available-stock' config variable
      - Terms and conditions agreement is now in the order process
 - Default pdf template:
